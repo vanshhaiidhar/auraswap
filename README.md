@@ -6,14 +6,14 @@
   <p><strong>Trade at the Speed of Blockchain. Atomic. Transparent. Interconnected.</strong></p>
   
   [![AuraSwap CI](https://github.com/vanshhaiidhar/auraswap/actions/workflows/ci.yml/badge.svg)](https://github.com/vanshhaiidhar/auraswap/actions/workflows/ci.yml)
-  [![Netlify Deployment](https://img.shields.io/badge/Netlify-Deployed-00AD9F?style=flat&logo=netlify)](https://stellar-strudel-bc8db2.netlify.app/)
+  [![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=flat&logo=vercel)](https://auraswap-frontend.vercel.app/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
   [![Network: Testnet](https://img.shields.io/badge/Network-Testnet-cyan.svg)](https://developers.stellar.org/docs/fundamentals-and-concepts/network-passphrases)
 </div>
 
 ---
 
-### 🚀 [Live Demo](https://stellar-strudel-bc8db2.netlify.app/) | [📺 Demo Video](#-demo-walkthrough)
+### 🚀 [Live Demo](https://auraswap-frontend.vercel.app/) | [📺 Demo Video](#-demo-walkthrough)
 
 AuraSwap is an institutional-grade Decentralized Exchange (DEX) protocol built on the Blockchain network using Soroban smart contracts. It enables seamless, atomic trading and liquidity provision with a high-fidelity user interface.
 
@@ -143,7 +143,7 @@ AuraSwap uses GitHub Actions for automated verification. You can track the live 
 The pipeline ensures:
 - **Backend (Rust)**: Environment verification and toolchain compatibility (v1.81.0).
 - **Frontend (Next.js)**: Automated linting, type checking, and production build verification.
-- **Automated Deployment**: Seamless integration with Netlify for live staging.
+- **Automated Deployment**: Seamless integration with Vercel for live staging.
 
 ## 📄 License
 
