@@ -5,7 +5,7 @@
 <div align="center">
   <p><strong>Trade at the Speed of Blockchain. Atomic. Transparent. Interconnected.</strong></p>
   
-  [![AuraSwap CI](https://github.com/Garvitk06/blockchain-swap/actions/workflows/ci.yml/badge.svg)](https://github.com/Garvitk06/blockchain-swap/actions/workflows/ci.yml)
+  [![AuraSwap CI](https://github.com/vanshhaiidhar/auraswap/actions/workflows/ci.yml/badge.svg)](https://github.com/vanshhaiidhar/auraswap/actions/workflows/ci.yml)
   [![Netlify Deployment](https://img.shields.io/badge/Netlify-Deployed-00AD9F?style=flat&logo=netlify)](https://stellar-strudel-bc8db2.netlify.app/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
   [![Network: Testnet](https://img.shields.io/badge/Network-Testnet-cyan.svg)](https://developers.stellar.org/docs/fundamentals-and-concepts/network-passphrases)
@@ -135,10 +135,15 @@ To verify the smart contract logic, follow these steps:
    ```
 
 ### CI/CD Pipeline
-AuraSwap uses GitHub Actions for automated verification. The pipeline ensures:
-- Rust toolchain (v1.81.0) compatibility.
-- Successful WASM compilation for all contracts.
-- Frontend linting and type checking.
+
+AuraSwap uses GitHub Actions for automated verification. You can track the live status here:
+
+[![AuraSwap CI](https://github.com/vanshhaiidhar/auraswap/actions/workflows/ci.yml/badge.svg)](https://github.com/vanshhaiidhar/auraswap/actions/workflows/ci.yml)
+
+The pipeline ensures:
+- **Backend (Rust)**: Environment verification and toolchain compatibility (v1.81.0).
+- **Frontend (Next.js)**: Automated linting, type checking, and production build verification.
+- **Automated Deployment**: Seamless integration with Netlify for live staging.
 
 ## 📄 License
 
